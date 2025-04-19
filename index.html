@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta 3D para mi amiga</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <video autoplay muted loop id="fondo-video">
+        <source src="large.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+      </video>      
+  <div class="card-container">
+    <input type="checkbox" id="open-card" hidden>
+    
+    <div class="card">
+      <div class="front">
+        <label for="open-card" class="open-btn">💌 Clic para abrir</label>
+      </div>
+      <div class="inside">
+        <div class="stars">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p>Querida amiga,<br><span>Gracias por siempre estar ahí 💖</span></p>
+        <p>"Te deseo mucho éxito en tu carrera de Administración en Senati. Sé que lograrás grandes cosas, y algún día, nos conoceremos en persona. Recuerda que los desafíos son oportunidades disfrazadas, y siempre que sigas trabajando con dedicación y pasión, alcanzarás tus metas. No importa cuántos obstáculos se presenten, lo importante es seguir adelante con perseverancia. ¡Estoy seguro de que el futuro te deparará grandes logros! Te quiero mucho y siempre estaré apoyándote en todo lo que hagas. Con cariño, Deivid."</p>
+        <img src="amiga.png" alt="Tu foto" class="foto">
+        <label for="open-card" class="close-btn">Cerrar</label>
+      </div>
+    </div>
+
+    <!-- Corazón con texto "Te quiero" -->
+    <div class="heart" id="heart">
+      <div class="heart-shape">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
